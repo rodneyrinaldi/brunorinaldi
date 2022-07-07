@@ -49,7 +49,6 @@ export default function Home() {
         </session>
 
         <session className={styles.tierTitle}>
-          <h1>PATIENT EXPERIENCE</h1>
           <p>
             <Image
               src="/bruno-md.png"
@@ -59,7 +58,7 @@ export default function Home() {
               height={56}
             />
           </p>
-          <p> </p>
+          <p>Experiência do Paciente</p>
           {/* <Link href="/">
             <a>MAIS INFORMAÇÕES</a>
           </Link> */}
