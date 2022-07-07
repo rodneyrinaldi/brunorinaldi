@@ -1,0 +1,87 @@
+.tierHeader {
+  width: 100vw;
+  height: 15vh;
+  padding: 5vh 15vw 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tierMain {
+  width: 100vw;
+  height: 74vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.tierLogo {
+  width: 40vw;
+  margin: 0 10vw 0 10vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  /* background:url('../../../public/back-img.png') 0 0 no-repeat; */
+}
+
+.tierTitle {
+  display: flex;
+  margin-top: 4vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tierTitle h1 {
+  margin-bottom: 2vh;
+  color: #283e4a;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.tierTitle p {
+  margin-bottom: 1vh;
+  color: #283e4a;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.tierTitle a {
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: #1c1c1c;
+  background: #ffa500;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 40px;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+.tierTitle a:hover {
+  opacity: 0.8;
+}
+
+/* ------------- */
+
+@media (max-width: 600px) {
+  .tierLogo {
+    align-self: center;
+    width: 50vw;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .tierTitle h1 {
+    margin-bottom: 2vh;
+    color: #283e4a;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .tierTitle p {
+    margin-bottom: 1vh;
+    color: #283e4a;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
