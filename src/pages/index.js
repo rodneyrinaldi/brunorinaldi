@@ -8,7 +8,7 @@ export default function Index(props) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>rinaldi</title>
+        <title>bruno rinaldi</title>
         <link rel="icon" href="/favicon.ico" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />

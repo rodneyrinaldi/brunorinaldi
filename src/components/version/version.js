@@ -11,7 +11,7 @@ function Version() {
       }}
     >
       <div style={{ display: "flex", lineHeight: "20px" }}>
-        &copy; rinaldi.com.br 2021
+        &copy; brunorinaldi.com.br 2021
       </div>
       <div style={{ display: "flex", lineHeight: "20px" }}>
         {`version ${metadata.buildMajor}.

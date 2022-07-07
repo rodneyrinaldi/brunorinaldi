@@ -10,7 +10,7 @@ export default class MyDocuments extends Document {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <title>rinaldi</title>
+          <title>bruno rinaldi</title>
           <link rel="icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
