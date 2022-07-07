@@ -50,7 +50,15 @@ export default function Home() {
 
         <session className={styles.tierTitle}>
           <h1>PATIENT EXPERIENCE</h1>
-          <p>Bruno MD</p>
+          <p>
+            <Image
+              src="/bruno-md.png"
+              alt="logo"
+              layout="intrinsic"
+              width={180}
+              height={32}
+            />
+          </p>
           <p> </p>
           {/* <Link href="/">
             <a>MAIS INFORMAÇÕES</a>
