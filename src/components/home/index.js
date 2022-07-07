@@ -55,8 +55,8 @@ export default function Home() {
               src="/bruno-md.png"
               alt="logo"
               layout="intrinsic"
-              width={180}
-              height={32}
+              width={256}
+              height={56}
             />
           </p>
           <p> </p>
