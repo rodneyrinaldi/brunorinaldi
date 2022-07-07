@@ -49,8 +49,8 @@ export default function Home() {
         </session>
 
         <session className={styles.tierTitle}>
-          <h1> PORTFOLIO</h1>
-          <p>User Interface User Experience</p>
+          <h1>PATIENT EXPERIENCE</h1>
+          <p>Bruno MD</p>
           <p> </p>
           {/* <Link href="/">
             <a>MAIS INFORMAÇÕES</a>
