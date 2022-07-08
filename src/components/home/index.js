@@ -43,14 +43,21 @@ export default function Home() {
             src="/logo.png"
             alt="logo"
             layout="intrinsic"
-            width={380}
-            height={112}
+            width={995}
+            height={884}
           />
         </session>
 
         <session className={styles.tierTitle}>
           <p>
-            NILZA G D MOTTA
+            <Image
+              src="/bruno-md.png"
+              alt="logo"
+              layout="intrinsic"
+              width={190}
+              height={60}
+            />
+          </p>
           <p>Experiência do Paciente</p>
           {/* <Link href="/">
             <a>MAIS INFORMAÇÕES</a>
